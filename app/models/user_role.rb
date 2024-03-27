@@ -46,7 +46,7 @@ class UserRole < ApplicationRecord
 
   def self.status(role)
     is_actual_role = role.is_a?(UserRole)
-    return nil if is_actual_role && role.metadata.nil?
+    return nil if (is_actual_role && role.metadata.nil?) || (!is_actual_role && role[:metadata].nil?)
     is_actual_role ? role.metadata[:status] : role[:metadata][:status]
   end
 
@@ -121,6 +121,17 @@ class UserRole < ApplicationRecord
       true # All board members & officers are considered as eligible voters.
     else
       false
+    end
+  end
+
+  def self.discourse_user_group(role)
+    group_type = UserRole.group_type(role)
+    group = UserRole.group(role)
+    case group_type
+    when UserGroup.group_types[:councils]
+      group.metadata.friendly_id
+    else
+      nil
     end
   end
 

@@ -36,36 +36,20 @@ class Api::V0::UserGroupsController < Api::V0::ApiController
     # array, so that we can append groups which are not yet migrated to the new system. This can be
     # removed once all roles are migrated to the new system.
 
-    # Temporary hack to support old system councils.
-    if group_type == "councils"
-      Team.all_councils.each do |council|
-        groups << {
-          id: group_type + "_" + council.id.to_s,
-          name: council.name,
-          group_type: UserGroup.group_types[:councils],
-          is_hidden: false,
-          is_active: true,
-          metadata: {
-            friendly_id: council.friendly_id,
-            email: council.email,
-          },
-        }
-      end
-    end
-
     # Temporary hack to support old system teams/committees.
     if group_type == UserGroup.group_types[:teams_committees]
       Team.all_official.each do |team_committee|
         groups << {
           id: group_type + "_" + team_committee.id.to_s,
           name: team_committee.name,
-          group_type: UserGroup.group_types[:team_committee],
+          group_type: UserGroup.group_types[:teams_committees],
           is_hidden: false,
           is_active: true,
           metadata: {
             friendly_id: team_committee.friendly_id,
             email: team_committee.email,
           },
+          lead_user: team_committee.reload.leader,
         }
       end
     end
