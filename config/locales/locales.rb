@@ -71,6 +71,10 @@ module Locales
       flag_id: "nl",
       name: "Nederlands",
     },
+    nb: {
+      flag_id: "no",
+      name: "Norsk",
+    },
     pl: {
       flag_id: "pl",
       name: "Polski",
