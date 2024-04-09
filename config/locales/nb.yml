@@ -19,459 +19,768 @@
 # To learn more, please read the Rails Internationalization guide
 # available at http://guides.rubyonrails.org/i18n.html.
 
-en:
-  #context: Special country name
+'no':
   countries:
-    AG: "Antigua and Barbuda"
-    BA: "Bosnia and Herzegovina"
-    CD: "Democratic Republic of the Congo"
-    CG: "Congo"
-    CI: "Côte d'Ivoire"
-    CV: "Cabo Verde"
-    FM: "Federated States of Micronesia"
-    GW: "Guinea Bissau"
-    HK: "Hong Kong, China"
-    KN: "Saint Kitts and Nevis"
-    KP: "Democratic People's Republic of Korea"
-    KR: "Republic of Korea"
-    LC: "Saint Lucia"
-    MK: "North Macedonia"
-    MM: "Myanmar"
-    MO: "Macau, China"
-    PS: "Palestine"
-    ST: "São Tomé and Príncipe"
-    SZ: "Eswatini"
-    TT: "Trinidad and Tobago"
-    TW: "Chinese Taipei"
-    VC: "Saint Vincent and the Grenadines"
-
-    XF: "Multiple Countries (Africa)"
-    XM: "Multiple Countries (Americas)"
-    XA: "Multiple Countries (Asia)"
-    XE: "Multiple Countries (Europe)"
-    XN: "Multiple Countries (North America)"
-    XO: "Multiple Countries (Oceania)"
-    XS: "Multiple Countries (South America)"
-    XW: "Multiple Countries (World)"
-  #context: Continent name
+    #original_hash: 530670d
+    AG: Antigua og Barbuda
+    #original_hash: 62ac59b
+    BA: Bosnia-Hercegovina
+    #original_hash: f39d280
+    CD: Den demokratiske republikken Kongo
+    #original_hash: 77f256b
+    CG: Republikken Kongo
+    #original_hash: b218299
+    CI: Elfenbenskysten
+    #original_hash: 07dee45
+    CV: Kapp Verde
+    #original_hash: ee10075
+    FM: Mikronesiaføderasjonen
+    #original_hash: db871b0
+    GW: Guinea-Bissau
+    #original_hash: e758117
+    HK: 'Hongkong, Kina'
+    #original_hash: 3ad2dd8
+    KN: Saint Kitts og Nevis
+    #original_hash: 5c34abb
+    KP: Den demokratiske folkerepublikken Korea
+    #original_hash: 4430b22
+    KR: Republikken Korea
+    #original_hash: 673b1cf
+    LC: Saint Lucia
+    #original_hash: e2ac50f
+    MK: Nord-Makedonia
+    #original_hash: 928b7c4
+    MM: Myanmar
+    #original_hash: 77e4070
+    MO: 'Macao, Kina'
+    #original_hash: 05a15c1
+    PS: Palestina
+    #original_hash: 655191a
+    ST: São Tomé og Príncipe
+    #original_hash: 16cc7f8
+    SZ: Eswatini
+    #original_hash: 4d206a8
+    TT: Trinidad og Tobago
+    #original_hash: fefc818
+    TW: Kinesisk Taipei
+    #original_hash: 3fa9b2d
+    VC: Saint Vincent og Grenadinene
+    #original_hash: 9af4622
+    XF: Flere land (Afrika)
+    #original_hash: 374ac0d
+    XM: Flere land (Nord- og Sør-Amerika)
+    #original_hash: 3f8c9de
+    XA: Flere land (Asia)
+    #original_hash: 090f3ce
+    XE: Flere land (Europa)
+    #original_hash: b50b7a5
+    XN: Flere land (Nord-Amerika)
+    #original_hash: 428e7af
+    XO: Flere land (Oseania)
+    #original_hash: 459f987
+    XS: Flere land (Sør-Amerika)
+    #original_hash: 9027fe6
+    XW: Flere land (Verden)
   continents:
-    "Multiple Continents": "Flere Kontinenter"
-    Africa: "Afrika"
-    Asia: "Asia"
-    Europe: "Europa"
-    "North America": "Nord-Amerika"
-    Oceania: "Oseania"
-    "South America": "Sør-Amerika"
-  #context: On the country bands page
+    #original_hash: f4acfa5
+    Multiple Continents: Flere Kontinenter
+    #original_hash: d4b7cde
+    Africa: Afrika
+    #original_hash: a173e72
+    Asia: Asia
+    #original_hash: 10bf715
+    Europe: Europa
+    #original_hash: 4e20ba3
+    North America: Nord-Amerika
+    #original_hash: 75fae3a
+    Oceania: Oseania
+    #original_hash: 25e8e28
+    South America: Sør-Amerika
   country_bands:
-    title: "WCA Country Bands"
-    band_title: "Band %{number}"
-    due_value: "$%{value} per competitor per competition"
-  #context: Event name
+    #original_hash: 2b5976e
+    title: WCA's Landegrupper for Regninger
+    #original_hash: df5f4ea
+    band_title: 'Gruppe %{number}'
+    #original_hash: 6521e5d
+    due_value: '$%{value} pr. deltaker pr. konkurranse'
   events:
-    "333": "3x3x3-Kube"
-    "222": "2x2x2-Kube"
-    "444": "4x4x4-Kube"
-    "555": "5x5x5-Kube"
-    "666": "6x6x6-Kube"
-    "777": "7x7x7-Kube"
-    333bf: "3x3x3 I Blinde"
-    333fm: "3x3x3 Færrest Trekk"
-    333oh: "3x3x3 Med En Hånd"
-    333ft: "3x3x3 Med Føttene"
-    clock: "Clock"
-    minx: "Megaminx"
-    pyram: "Pyraminx"
-    skewb: "Skewb"
-    sq1: "Square-1"
-    444bf: "4x4x4 I Blinde"
-    555bf: "5x5x5 I Blinde"
-    333mbf: "3x3x3 Multi-Blind"
-    magic: "Magic"
-    mmagic: "Master Magic"
-    333mbo: "3x3x3 Multi-Blind Old Style"
-  #context: Formats name
+    #original_hash: 2cadb4f
+    '222': 2x2x2-Kube
+    #original_hash: dcf2e0b
+    '333': 3x3x3-Kube
+    #original_hash: cc75918
+    '444': 4x4x4-Kube
+    #original_hash: 10fc2ad
+    '555': 5x5x5-Kube
+    #original_hash: 7e257f7
+    '666': 6x6x6-Kube
+    #original_hash: 9c4b153
+    '777': 7x7x7-Kube
+    #original_hash: 7d9c773
+    333bf: 3x3x3 I Blinde
+    #original_hash: 11ac8e4
+    333fm: 3x3x3 Færrest Trekk
+    #original_hash: 12bef0b
+    333oh: 3x3x3 Med En Hånd
+    #original_hash: 32f52ce
+    333ft: 3x3x3 Med Føttene
+    #original_hash: 04f6b3e
+    clock: Clock
+    #original_hash: d542376
+    minx: Megaminx
+    #original_hash: 8216a66
+    pyram: Pyraminx
+    #original_hash: 64a56a2
+    skewb: Skewb
+    #original_hash: 1551a2c
+    sq1: Square-1
+    #original_hash: 0f23e69
+    444bf: 4x4x4 I Blinde
+    #original_hash: 77dcebf
+    555bf: 5x5x5 I Blinde
+    #original_hash: cedbf87
+    333mbf: 3x3x3 Multi-Blind
+    #original_hash: e6791be
+    magic: Magic
+    #original_hash: c962425
+    mmagic: Master Magic
+    #original_hash: 1843dc4
+    333mbo: 3x3x3 Multi-Blind Old Style
   formats:
-    "1": "Best av 1"
-    "2": "Best av 2"
-    "3": "Best av 3"
-    "a": "Gjennomsnitt av 5"
-    "m": "Gjennomsnitt av 3"
-    #context: short name alternative
+    #original_hash: 6d0b8b7
+    '1': Best av 1
+    #original_hash: 7cc4542
+    '2': Best av 2
+    #original_hash: 14aaa5b
+    '3': Best av 3
+    #original_hash: 76081cb
+    a: Snitt av 5
+    #original_hash: 4a31e26
+    m: Snitt av 3
     short:
-      "1": "Ba1"
-      "2": "Ba2"
-      "3": "Ba3"
-      "a": "Sa5"
-      "m": "Sa3"
-  #context: Round name
+      #original_hash: 1e891b6
+      '1': Ba1
+      #original_hash: 2a4224c
+      '2': Ba2
+      #original_hash: e007520
+      '3': Ba3
+      #original_hash: 5cb2b73
+      a: Sa5
+      #original_hash: 189bd1c
+      m: Sa3
   rounds:
-    "0":
-      name: "Kvalifikasjonsrunde"
-      cellName: "Kvalifikasjonsrunde"
-    "1":
-      name: "Første runde"
-      cellName: "Første runde"
-    "2":
-      name: "Andre runde"
-      cellName: "Andre runde"
-    "3":
-      name: "Semifinale"
-      cellName: "Semifinale"
-    "b":
-      name: "B Finale"
-      cellName: "B Finale"
-    "c":
-      name: "Finale"
-      cellName: "Finale"
-    "d":
-      name: "Første runde"
-      cellName: "Første runde"
-    "e":
-      name: "Andre runde"
-      cellName: "Andre runde"
-    "f":
-      name: "Finale"
-      cellName: "Finale"
-    "g":
-      name: "Semifinale"
-      cellName: "Semifinale"
-    "h":
-      name: "Kvalifikasjonsrunde"
-      cellName: "Kvalifikasjonsrunde"
-  #context: attempt name
+    '0':
+      #original_hash: dbcbf0d
+      name: Kvalifikasjonsrunde
+      #original_hash: dbcbf0d
+      cellName: Kvalifikasjonsrunde
+    '1':
+      #original_hash: 360b26f
+      name: Første runde
+      #original_hash: 360b26f
+      cellName: Første runde
+    '2':
+      #original_hash: a59aba4
+      name: Andre runde
+      #original_hash: a59aba4
+      cellName: Andre runde
+    '3':
+      #original_hash: aad0274
+      name: Semifinale
+      #original_hash: aad0274
+      cellName: Semifinale
+    b:
+      #original_hash: 263b8e3
+      name: B Finale
+      #original_hash: 263b8e3
+      cellName: B Finale
+    c:
+      #original_hash: ce20de3
+      name: Finale
+      #original_hash: ce20de3
+      cellName: Finale
+    d:
+      #original_hash: 360b26f
+      name: Første runde
+      #original_hash: 360b26f
+      cellName: Første runde
+    e:
+      #original_hash: a59aba4
+      name: Andre runde
+      #original_hash: a59aba4
+      cellName: Andre runde
+    f:
+      #original_hash: ce20de3
+      name: Finale
+      #original_hash: ce20de3
+      cellName: Finale
+    g:
+      #original_hash: aad0274
+      name: Semifinale
+      #original_hash: aad0274
+      cellName: Semifinale
+    h:
+      #original_hash: dbcbf0d
+      name: Kvalifikasjonsrunde
+      #original_hash: dbcbf0d
+      cellName: Kvalifikasjonsrunde
   attempts:
-    attempt_name: "Forsøk %{number}"
+    #original_hash: 92b48ee
+    attempt_name: 'Forsøk %{number}'
   round:
-    #context: e.g. event_name can be "3x3x3 Cube", and round_name can be "Cutoff First round"
-    name: "%{event_name} %{round_name}"
-  #context: Words used to describe the requirement to advance to the next round
+    #original_hash: 236c41d
+    name: '%{event_name} %{round_name}'
   advancement_condition:
     short:
-      ranking: "Topp %{ranking}"
-      percent: "Topp %{percent}%"
+      #original_hash: 479fa56
+      ranking: 'Topp %{ranking}'
+      #original_hash: bc16bee
+      percent: 'Topp %{percent}%'
       attempt_result:
-        time: "%{round_format} < %{time}"
-        moves: "%{round_format} < %{moves}"
-        points: "%{round_format} > %{points}"
-    ranking: "Topp %{ranking} går videre til neste runde"
-    percent: "Topp %{percent}% går videre til neste runde"
+        #original_hash: ac6a282
+        time: '%{round_format} < %{time}'
+        #original_hash: 45db130
+        moves: '%{round_format} < %{moves}'
+        #original_hash: 076911b
+        points: '%{round_format} > %{points}'
+    #original_hash: a453f67
+    ranking: 'Topp %{ranking} går videre til neste runde'
+    #original_hash: 00933e0
+    percent: 'Topp %{percent}% går videre til neste runde'
     attempt_result:
-      time: "%{round_format} < %{time} går videre til neste runde"
-      moves: "%{round_format} < %{moves} trekk går videre til neste runde"
-      points: "%{round_format} > %{points} poeng går videre til neste runde"
-  #context: Words used to describe cutoff round cutoffs
+      #original_hash: cce430e
+      time: '%{round_format} < %{time} går videre til neste runde'
+      #original_hash: c332914
+      moves: '%{round_format} < %{moves} trekk går videre til neste runde'
+      #original_hash: e6078f2
+      points: '%{round_format} > %{points} poeng går videre til neste runde'
   cutoff:
+    #original_hash: ab35a2b
     time:
-      one: "%{count} forsøk på å få < %{time}"
-      other: "%{count} forsøk på å få < %{time}"
+      zero: '%{count} forsøk på å få < %{time}'
+      one: '%{count} forsøk på å få < %{time}'
+      other: '%{count} forsøk på å få < %{time}'
+    #original_hash: 4c6ca90
     moves:
-      one: "%{count} forsøk på å få < %{moves} moves"
-      other: "%{count} forsøk på å få < %{moves} moves"
+      zero: '%{count} forsøk på å få < %{moves} moves'
+      one: '%{count} forsøk på å få < %{moves} moves'
+      other: '%{count} forsøk på å få < %{moves} moves'
+    #original_hash: 6892f2b
     points:
-      one: "%{count} forsøk på å få > %{points} points"
-      other: "%{count} forsøk på å få > %{points} points"
-  #context: Words used to describe time limits
+      zero: '%{count} forsøk på å få > %{points} poeng'
+      one: '%{count} forsøk på å få > %{points} poeng'
+      other: '%{count} forsøk på å få > %{points} poeng'
   time_limit:
     cumulative:
-      one_round: "%{time} kumulativ"
-      across_rounds: "%{time} totalt for %{rounds}"
-    333fm: "1 time"
-    333mbf: "10:00.00 per kube, opp til 60:00.00"
-    333mbo: ""
-  #context: Words used to describe qualification limits.
+      #original_hash: 7c93ba4
+      one_round: '%{time} kumulativ'
+      #original_hash: c0d1d99
+      across_rounds: '%{time} totalt for %{rounds}'
+    #original_hash: ccd913c
+    333fm: 1 time
+    #original_hash: 3090e5e
+    333mbf: '10:00.00 per kube, opp til 60:00.00'
+    #original_hash: da39a3e
+    333mbo: ''
   qualification:
-    type_label: "Kvalifikasjonstype"
-    result_type: "Resultatstype"
-    for_event: "Kvalifikasjon for %{event}"
+    #original_hash: b018d1c
+    type_label: Kvalifikasjonstype
+    #original_hash: b73d04b
+    result_type: Resultatstype
+    #original_hash: 0c1f963
+    for_event: 'Kvalifikasjon for %{event}'
     type:
-      none: "Ingen kvalifikasjon"
-      result: "Etter restulat"
-      ranking: "Topp N"
-      any_result: "Har et resultat"
+      #original_hash: 949ca06
+      none: Ingen kvalifikasjon
+      #original_hash: 29cb1d9
+      result: Etter resultat
+      #original_hash: b2b69c5
+      ranking: Topp N
+      #original_hash: 73ccf72
+      any_result: Har et resultat
     single:
-      time: "Enkelløsning %{time}"
-      moves: "Enkelløsning under %{moves} trekk"
-      points: "Enkelløsning over %{points} poeng"
-      ranking: "Topp %{ranking} etter enkelløsning"
-      any_result: "Har en enkelløsning"
+      #original_hash: 26aef99
+      time: 'Enkelløsning %{time}'
+      #original_hash: 48823dd
+      moves: 'Enkelløsning under %{moves} trekk'
+      #original_hash: 8caf5a7
+      points: 'Enkelløsning over %{points} poeng'
+      #original_hash: 333205f
+      ranking: 'Topp %{ranking} etter enkelløsning'
+      #original_hash: 76a94aa
+      any_result: Har en enkelløsning
     average:
-      time: "Gjennonsnitt under %{time}"
-      moves: "Gjennomsnitt under %{moves} trekk"
-      points: "Gjennomsnitt over %{points} poeng"
-      ranking: "Topp %{ranking} etter gjennomsnitt"
-      any_result: "Har et gjennomsnitt"
+      #original_hash: 039263c
+      time: 'Snitt under %{time}'
+      #original_hash: d7f0c91
+      moves: 'Snitt under %{moves} trekk'
+      #original_hash: 34ba9e9
+      points: 'Snitt over %{points} poeng'
+      #original_hash: 7f2fe07
+      ranking: 'Topp %{ranking} etter snitt'
+      #original_hash: 1c73a89
+      any_result: Har et snitt
     deadline:
-      description: "Frist for kvalifikasjon"
-      by_date: "innen %{date}"
-  #context: Common word used in multiple places on the website
+      #original_hash: 645750b
+      description: Frist for kvalifikasjon
+      #original_hash: b2d808d
+      by_date: 'innen %{date}'
   common:
-    world: "Verden"
-    continent: "Kontinent"
-    country: "Region"
-    #context: "here" is used in html links such as "You can create an account here".
-    here: "her"
-    best: "Best"
-    single: "Enkelløsning"
-    average: "Gjennomsnitt"
-    solves: "Løsninger"
-    #context: Used as an introduction in emails
-    hello: "Hei %{name},"
-    #context: Key used when we want to show a date, but the date is missing. For example, a competition that has been created, but has not had a start and end date assigned yet.
+    #original_hash: 91dcc9f
+    world: Verden
+    #original_hash: bc9a0ed
+    continent: Kontinent
+    #original_hash: 0f21717
+    country: Region
+    #original_hash: 9994006
+    here: her
+    #original_hash: 77003d0
+    best: Best
+    #original_hash: 5855c8f
+    single: Enkelløsning
+    #original_hash: d8dc6f6
+    average: Snitt
+    #original_hash: 076d331
+    solves: Løsninger
+    #original_hash: 02fab01
+    hello: 'Hei %{name},'
     date:
-      no_date: "Ingen dato" # TODO Ingen dato satt ?
+      #original_hash: 28d1ebf
+      no_date: Ingen dato
     user:
-      wca_id: "WCA ID"
-      representing: "Representerer"
-    all_regions: "Alle regioner"
+      #original_hash: 603a218
+      wca_id: WCA ID
+      #original_hash: 9e418d2
+      representing: Representerer
+    #original_hash: 13f172f
+    all_regions: Alle regioner
     errors:
-      invalid: "ugjyldig"
-    #context: Key used for the pluralization of "x day(s)" in a sentence like "Stars in x days".
+      #original_hash: ae2828e
+      invalid: ugyldig
+    #original_hash: f9f4323
     days:
-      one: "1 dag"
-      other: "%{count} dager"
-    #context: Key used for the pluralization of "x event(s)" in a sentence like "Couldn't find a competition with these x events"
+      zero: 0 dager
+      one: 1 dag
+      other: '%{count} dager'
+    #original_hash: 296640d
     these_events:
-      one: "denne grenen"
-      other: "disse %{count} grenene"
-    search_site: "Søk på siden"
+      zero: 'disse %{count} grenene'
+      one: denne grenen
+      other: 'disse %{count} grenene'
+    #original_hash: b7f108c
+    search_site: Søk på siden
+    #original_hash: d7decf1
     filter: Filter
+    #original_hash: 933b7f5
     delete: Slett
-    date_placeholder: "YYYY-MM-DD"
-    datetime_placeholder: "YYYY-MM-DD HH:MM"
-    #context: the time format in the schedule table. Please set this to *exactly* "12h" to use am/pm time, or "24h" for 24 hours time (do not translate the 'h' or anything).
-    time_format: "12t"
-    #context: used to phrase a result, e.g. 24.45 seconds, 25.66 moves
+    #original_hash: d3f8f7b
+    date_placeholder: YYYY-MM-DD
+    #original_hash: 52249b5
+    datetime_placeholder: 'YYYY-MM-DD TT:MM'
+    #original_hash: 7256697
+    time_format: 24h
     solve_time:
-      unit_seconds: "sekunder"
-      unit_moves: "trekk"
-
-  #context: Key used in the OAuth part of the site (checkout the /oauth/applications page for more details)
+      #original_hash: e134a54
+      unit_seconds: sekunder
+      #original_hash: f35decc
+      unit_moves: trekk
   oauth:
     applications:
-      your_apps: "Dine OAuth-Applikasjoner"
-      new: "Ny"
-      name: "Navn"
-      callback_url: "Callback Url"  #TODO
-      owner: "Eier"
-      application_id: "Applikasjons-ID"
-      actions: "Handlinger"
-      secret: "Hemmelig" # TODO Sjekk kontekst
-      scopes: "Scopes" #TODO 
-      callback_urls: "Callback Urls" # TODO
+      #original_hash: 2841a96
+      your_apps: Dine OAuth-Applikasjoner
+      #original_hash: 45831bf
+      new: Ny
+      #original_hash: 32dae7e
+      name: Navn
+      #original_hash: f6f1389
+      callback_url: Callback Url
+      #original_hash: 1c459af
+      owner: Eier
+      #original_hash: 114033e
+      application_id: Applikasjons-ID
+      #original_hash: 6c70745
+      actions: Handlinger
+      #original_hash: cb01c21
+      secret: Hemmelig
+      #original_hash: c23540e
+      scopes: Scopes
+      #original_hash: 3b0d449
+      callback_urls: Callback Urls
   helpers:
     submit:
       competition_medium:
-        create: "Last opp innhold"
-        update: "Oppdater innhold"
+        #original_hash: 4a4081a
+        create: Last opp innhold
+        #original_hash: e746617
+        update: Oppdater innhold
   activerecord:
-    #context: This key is used as a label for forms regarding
     attributes:
-      #context: a user
       user:
-        name: "Fullt navn"
-        wca_id: "WCA ID"
-        unconfirmed_wca_id: "Unbekreftet WCA ID"
-        login: "E-post eller WCA ID"
-        country_iso2: "Representerer"
-        dob: "Fødselsdato"
-        dob_verification: "Din fødselsdato"
-        gender: "Kjønn"
-        email: "E-post"
-        password: "Passord"
-        password_confirmation: "Gjenta passord"
-        remember_me: "Husk meg"
-        pending_avatar: "Last opp nytt profilbilde"
-        remove_avatar: "Fjern profilbilde"
-        results_notifications_enabled: "Send meg en e-post når resultatene mine er lastet opp."
-        registration_notifications_enabled: "Når jeg delegerer eller arrangerer en konkurranse, send meg en e-post når noen registrer seg."
-        delegate_status: "Delegatstatus"
-        location: "Område" # TODO Sjekk konteskt
-        region: "Region"
-        subRegion: "Underregion"
-        receive_delegate_reports: "Jeg ønsker å motta Delegatrapporter fra WCA Konkurranser via e-post"
-        user_preferred_events: "Foretrukne grener"
-        otp_attempt: "Skriv inn to-faktor autentikasjonskode:"
-      #context: a registration to a competition
+        #original_hash: f714eec
+        name: Fullt navn
+        #original_hash: 603a218
+        wca_id: WCA ID
+        #original_hash: 3913ee9
+        unconfirmed_wca_id: Ubekreftet WCA ID
+        #original_hash: c1592a2
+        login: E-post eller WCA ID
+        #original_hash: 9e418d2
+        country_iso2: Representerer
+        #original_hash: c71a920
+        dob: Fødselsdato
+        #original_hash: 1c7798b
+        dob_verification: Din fødselsdato
+        #original_hash: 25ef9d0
+        gender: Kjønn
+        #original_hash: b3418c9
+        email: E-post
+        #original_hash: 0bcfb4c
+        password: Passord
+        #original_hash: 2d1ccc0
+        password_confirmation: Gjenta passord
+        #original_hash: c177fb3
+        remember_me: Husk meg
+        #original_hash: f57f25f
+        pending_avatar: Last opp nytt profilbilde
+        #original_hash: f56a04d
+        remove_avatar: Fjern profilbilde
+        #original_hash: d805077
+        results_notifications_enabled: Send meg en e-post når resultatene mine er lastet opp.
+        #original_hash: 93129f7
+        registration_notifications_enabled: >-
+          Når jeg delegerer eller arrangerer en konkurranse, send meg en e-post
+          når noen registrer seg.
+        #original_hash: 8f971f3
+        delegate_status: Delegatstatus
+        #original_hash: 3ba9267
+        location: Område
+        #original_hash: 0f21717
+        region: Region
+        #original_hash: b4f92be
+        subRegion: Underregion
+        #original_hash: b36f55f
+        receive_delegate_reports: Jeg ønsker å motta Delegatrapporter fra WCA Konkurranser via e-post
+        #original_hash: 304222d
+        user_preferred_events: Foretrukne grener
+        #original_hash: cce553c
+        otp_attempt: 'Skriv inn to-faktor autentikasjonskode:'
       registration:
-        guests: "Gjester"
-        comments: "Kommentarer"
-        paid_entry_fees: "Betalt"
-        status: "Status"
-        administrative_notes: "Administrative notater"
-        # We can remove the following 3 keys once https://github.com/thewca/worldcubeassociation.org/issues/275 is done! (spec will complain anyway)
-        name: "Navn"
-        birthday: "Fødselsdato"
-        registration_competition_events: "Grener"
-        email: "E-post"
-      #context: a competition tab
+        #original_hash: f0d2292
+        guests: Gjester
+        #original_hash: 7413526
+        comments: Kommentarer
+        #original_hash: d2b669c
+        paid_entry_fees: Betalt
+        #original_hash: bae7d5b
+        status: Status
+        #original_hash: 98980dd
+        administrative_notes: Administrative notater
+        #original_hash: 32dae7e
+        name: Navn
+        #original_hash: c71a920
+        birthday: Fødselsdato
+        #original_hash: d4c420b
+        registration_competition_events: Grener
+        #original_hash: b3418c9
+        email: E-post
       competition_tab:
-        content: "Innhold"
-        name: "Navn"
-      #context: a delegate report
+        #original_hash: 7323244
+        content: Innhold
+        #original_hash: 32dae7e
+        name: Navn
       delegate_report:
-        discussion_url: "Link til diskusjonen på Google Groups"
-        schedule_url: "Timeplan-url"
-        equipment: "Utstyr"
-        venue: "Lokale"
-        organization: "Organisering"
-        incidents: "Incidents"
-        wrc_feedback_requested: "Jeg ønsker tilbakemelding fra WRC på noen av hendelsene"
-        wrc_incidents: "Hendelser Som Trenger WRC Tilbakebelding"
-        wdc_feedback_requested: "Jeg ønsker tilbakemelding fra WRC på noen av hendelsene"
-        wdc_incidents: "Hendelser Som Trenger WRC Tilbakebelding"
-        remarks: "Bemerkninger"
-      #context: a person
+        #original_hash: e5bbd99
+        discussion_url: Link til diskusjonen på Google Groups
+        #original_hash: 8384cf9
+        schedule_url: Timeplan-url
+        #original_hash: f76e97a
+        equipment: Utstyr
+        #original_hash: feefd2b
+        venue: Lokale
+        #original_hash: d1ded87
+        organization: Organisering
+        #original_hash: 5e326b1
+        incidents: Incidents
+        #original_hash: 3959edd
+        wrc_feedback_requested: Jeg ønsker tilbakemelding fra WRC på noen av hendelsene
+        #original_hash: 95103db
+        wrc_incidents: Hendelser Som Trenger WRC Tilbakemelding
+        #original_hash: 3959edd
+        wdc_feedback_requested: Jeg ønsker tilbakemelding fra WRC på noen av hendelsene
+        #original_hash: 95103db
+        wdc_incidents: Hendelser Som Trenger WRC Tilbakemelding
+        #original_hash: cc9cb2b
+        remarks: Bemerkninger
       person:
-        wca_id: "Person"
-        countryId: "Representerer"
-        dob: "Fødselsdato"
-        gender: "Kjønn"
-        name: "Navn"
-        incorrect_wca_id_claim_count: "Incorrect WCA ID claim count" #TODO
-      #context: a poll
+        #original_hash: 8c41ae8
+        wca_id: Person
+        #original_hash: 9e418d2
+        countryId: Representerer
+        #original_hash: c71a920
+        dob: Fødselsdato
+        #original_hash: 25ef9d0
+        gender: Kjønn
+        #original_hash: 32dae7e
+        name: Navn
       poll:
-        question: "Spørsmål"
-        deadline: "Frist"
-      #context: a post
+        #original_hash: 9da7e47
+        question: Spørsmål
+        #original_hash: a2f1a18
+        deadline: Frist
       post:
-        title: "Tittel"
-        body: "Hoveddel"
-        sticky: "Sticky"
-        unstick_at: "Unstick at"
-        tags: "Tags"
-        show_on_homepage: "Vis på hovedsiden"
-      #context: a team
+        #original_hash: 7dfb4b1
+        title: Tittel
+        #original_hash: e57e3ed
+        body: Hoveddel
+        #original_hash: 6f915a2
+        sticky: Fest
+        #original_hash: 231d9ff
+        unstick_at: 'Fjern fastgjørelsen av oppslaget på følgende dato:'
+        #original_hash: 0febb19
+        show_on_homepage: Vis på hovedsiden
       team:
-        name: "Navn"
-        description: "Beskrivelse"
-      #context: a vote
+        #original_hash: 32dae7e
+        name: Navn
+        #original_hash: 66239c1
+        description: Beskrivelse
       vote:
-        comment: "Commentar"
-      #context: an incident
+        #original_hash: b9f9eab
+        comment: Kommentar
       incident:
-        title: "Tittel"
-        private_description: "Beskrivelse (privat)"
-        private_wrc_decision: "Avgjørselse (privat)"
-        public_summary: "Oppsummering (offentlig)"
-        digest_worthy: "Oppsummeringsverdig" #TODO Ord for DIGEST
-        tags: "Tags" #TODO Ord for tags
-        competition_id: "Skjedde under"
+        #original_hash: 7dfb4b1
+        title: Tittel
+        #original_hash: 91a6e6b
+        private_description: Beskrivelse (privat)
+        #original_hash: 269e3df
+        private_wrc_decision: Avgjørelse (privat)
+        #original_hash: 05bb9ae
+        public_summary: Oppsummering (offentlig)
+        #original_hash: 656ab37
+        digest_worthy: Oppsummeringsverdig
+        #original_hash: 935c45e
+        competition_id: Skjedde under
       competition_medium:
-        competitionId: "Konkurranse"
-        type: "Type"
-        text: "Tekst"
-        uri: "Link"
-        submitterName: "Navn på innsender"
-        submitterEmail: "E-post til innsender"
-        submitterComment: "Kommentar fra innsender"
-        status: "Status"
+        #original_hash: 4cf0275
+        competitionId: Konkurranse
+        #original_hash: 3deb745
+        type: Type
+        #original_hash: 31262d8
+        text: Tekst
+        #original_hash: d051707
+        uri: Lenke
+        #original_hash: 019833f
+        submitterName: Navn på innsender
+        #original_hash: 2ffba67
+        submitterEmail: E-post til innsender
+        #original_hash: 5c84e5f
+        submitterComment: Kommentar fra innsender
+        #original_hash: bae7d5b
+        status: Status
       regional_organization:
-        name: "Navn"
-        country: "Region"
-        website: "Nettside"
-        logo: "Logo"
-        email: "E-post"
-        address: "Kontaktepost"
-        bylaws: "Vedtekter"
-        directors_and_officers: "Oversikt over styret"
-        area_description: "Fjern beskrivelse av markert område" #TODO Kontekst?
-        past_and_current_activities: "Report of the past and current WCA-related activities"
-        future_plans: "Plans for the future as a WCA-acknowledged Regional Organization"
-        extra_information: "Any extra information?"
-        extra_file: "Any extra file?"
-        start_date: "Acknowledged since"
-        end_date: "Acknowledged until"
+        #original_hash: 32dae7e
+        name: Navn
+        #original_hash: 0f21717
+        country: Region
+        #original_hash: 9277cee
+        website: Nettside
+        #original_hash: 83fce83
+        logo: Logo
+        #original_hash: b3418c9
+        email: E-post
+        #original_hash: 63b1a13
+        address: Kontaktepost
+        #original_hash: b40ec95
+        bylaws: Vedtekter
+        #original_hash: 93495a0
+        directors_and_officers: Oversikt over styret
+        #original_hash: 7fcd167
+        area_description: Fjern beskrivelse av markert område
+        #original_hash: 0cdb036
+        past_and_current_activities: Rapport over tidligere og nåværende WCA-relaterte hendelser
+        #original_hash: 0faebcf
+        future_plans: Planer for fremtiden som en WCA-anerkjent Regional Organisasjon
+        #original_hash: f5ad34a
+        extra_information: Ekstra informasjon?
+        #original_hash: bc07619
+        extra_file: Ekstra filer?
+        #original_hash: 5ddd986
+        start_date: Anerkjent siden
+        #original_hash: 1ee885a
+        end_date: Anerkjent til
   enums:
     user:
       gender:
-        m: "Mann"
-        f: "Kvinne"
-        o: "Annet"
+        #original_hash: fafc5a0
+        m: Mann
+        #original_hash: a1171ec
+        f: Kvinne
+        #original_hash: 84f03a5
+        o: Annet
     user_roles:
       status:
         delegate_regions:
-          trainee_delegate: "Traineedelegat"
-          candidate_delegate: "Juniordelegat"
-          delegate: "Delegat"
-          regional_delegate: "Regionaldelegat"
-          senior_delegate: "Seniordelegat"
+          #original_hash: 8b5c550
+          trainee_delegate: Traineedelegat
+          #original_hash: 31c65e6
+          candidate_delegate: Juniordelegat
+          #original_hash: 9fce972
+          delegate: Delegat
+          #original_hash: 1fcdd74
+          regional_delegate: Regionaldelegat
+          #original_hash: 092fe59
+          senior_delegate: Seniordelegat
         teams_committees:
-          member: "Medlem"
-          senior_member: "Seniormedlem"
-          leader: "Leder"
+          #original_hash: ad95010
+          member: Medlem
+          #original_hash: 29f331c
+          senior_member: Seniormedlem
+          #original_hash: ab6cb58
+          leader: Leder
         councils:
-          member: "Medlem"
-          senior_member: "Seniormedlem"
-          leader: "Leder"
+          #original_hash: ad95010
+          member: Medlem
+          #original_hash: 29f331c
+          senior_member: Seniormedlem
+          #original_hash: ab6cb58
+          leader: Leder
         officers:
-          chair: "WCA Styremedlem"
-          executive_director: "WCA Styreleder"
-          secretary: "WCA Sekretær"
-          vice_chair: "WCA Varamedlem"
-          treasurer: "WCA Kasserer"
+          #original_hash: 8cd92e9
+          chair: WCA Styremedlem
+          #original_hash: 26c4029
+          executive_director: WCA Styreleder
+          #original_hash: 0d1bae0
+          secretary: WCA Sekretær
+          #original_hash: c57195b
+          vice_chair: WCA Varamedlem
+          #original_hash: 84403ac
+          treasurer: WCA Kasserer
     competition_medium:
       status:
-        accepted: "Godkjent"
-        pending: "Under godkjenning"
+        #original_hash: 75613a5
+        accepted: Godkjent
+        #original_hash: 46dc2e0
+        pending: Under godkjenning
       type:
-        report: "Rapport"
-        article: "Artikkel"
-        multimedia: "Multimedia"
-  #context: This key is an element of a form on the website
+        #original_hash: f25c405
+        report: Rapport
+        #original_hash: 7a60524
+        article: Artikkel
+        #original_hash: 82dabd0
+        multimedia: Multimedia
   simple_form:
-    "yes": "Yes"
-    "no": "No"
+    #original_hash: 5397e05
+    'yes': Ja
+    #original_hash: 816c52f
+    'no': Nei
     required:
-      text: 'required'
+      #original_hash: 1a77d41
+      text: påkrevd
+      #original_hash: df58248
       mark: '*'
-      # You can uncomment the line below if you need to overwrite the whole required html.
-      # When using html, text and mark won't be used.
+      #original_hash: da39a3e
       html: ''
     error_notification:
-      default_message: "Please review the problems below:"
-    #context: and a hint given about a specific field
+      #original_hash: d70e9cb
+      default_message: 'Vennligst gå gjennom problemene nedenfor:'
     hints:
-      #context: for an incident
       incident:
-        title: "Keep in mind this is public, and that you have to fill this in English!"
-        private_description: "A description of the incident which can only be viewed by Delegates. Please fill this in English."
-        private_wrc_decision: "The final WRC decision, including private details. Please fill this in English."
-        public_summary: "An overall description of the incident and its decision, to be displayed publicly. Please fill this in English."
-        digest_worthy: ""
-        tags: ""
-        competition_id: ""
-      #context: for a user
+        #original_hash: c54e268
+        title: 'Husk at dette er offentlig, og at du må fylle det ut på engelsk!'
+        #original_hash: 67f2a1a
+        private_description: >-
+          En beskrivelse av hendelsen som kun kan bli sett av delegater.
+          Vennligst fyll dette ut på engelsk.
+        #original_hash: b766029
+        private_wrc_decision: >-
+          Den endelige beslutningen til WRC, inkludert private detaljer.
+          Vennligst fyll dette ut på engelsk.
+        #original_hash: 3de5729
+        public_summary: >-
+          En generell beskrivelse av hendelsen og dens avgjørelse, som skal
+          vises offentlig. Vennligst fyll dette ut på engelsk.
+        #original_hash: da39a3e
+        digest_worthy: ''
+        #original_hash: da39a3e
+        tags: ''
+        #original_hash: da39a3e
+        competition_id: ''
       user:
-        dob: "Enter the competitor's date of birth in the format YYYY-MM-DD."
-        name: "Enter the competitor's full name correctly, for example <strong>Stefan Pochmann</strong>. Not sloppily like <strong>s pochman</strong>.<br/>Middle names (either full or as initials) are optional."
-        email: ""
-        pending_avatar: "After uploading a new avatar, you will have to wait for the WCA Results Team to approve it."
-        country_iso2: ""
-        dob_verification: ""
-        gender: ""
-        login: ""
-        password: ""
-        password_confirmation: ""
-        remember_me: ""
-        results_notifications_enabled: ""
-        registration_notifications_enabled: "This only applies for competitions you organize or delegate, and can be overridden on a per-competition basis."
-        unconfirmed_wca_id: ""
-        wca_id: ""
-        receive_delegate_reports: "If you are a Trainee Delegate, Junior Delegate, Senior Delegate, or Member of the WRC or the WQAC, you receive Delegate Reports by default. Note: the change may take up to an hour to take effect."
-        otp_attempt: "Check your configured mobile application for a one-time password, or input one of your recovery codes."
+        #original_hash: 7588d71
+        dob: Skriv deltakerens fødselsdato på formatet ÅÅÅÅ-MM-DD.
+        #original_hash: ac908c9
+        name: >-
+          Skriv inn deltakeren sitt fulle navn. For eksempel: <strong>Stefan
+          Pochmann</strong>. Gjør det ordentlig. Ikke sånn her: <strong>s
+          pochman</strong>.<br/>Mellomnavn (hele mellomnavnet eller initialene)
+          er valgfritt.
+        #original_hash: da39a3e
+        email: ''
+        #original_hash: 8a91e53
+        pending_avatar: >-
+          Etter opplastingen av et nytt profilbilde, må du vente på godkjenning
+          fra WCA Results Team.
+        #original_hash: da39a3e
+        country_iso2: ''
+        #original_hash: da39a3e
+        dob_verification: ''
+        #original_hash: da39a3e
+        gender: ''
+        #original_hash: da39a3e
+        login: ''
+        #original_hash: da39a3e
+        password: ''
+        #original_hash: da39a3e
+        password_confirmation: ''
+        #original_hash: da39a3e
+        remember_me: ''
+        #original_hash: da39a3e
+        results_notifications_enabled: ''
+        #original_hash: f62eb10
+        registration_notifications_enabled: >-
+          Dette gjelder kun for konkurranser du organiserer eller delegerer, og
+          kan overstyres på en per-konkurranse basis.
+        #original_hash: da39a3e
+        unconfirmed_wca_id: ''
+        #original_hash: da39a3e
+        wca_id: ''
+        #original_hash: 81a76a3
+        receive_delegate_reports: >-
+          Hvis du er en traineedelegat, juniordelegat, seniordelegat eller
+          medlem av WRC eller WQAC, mottar du automatisk delegerapporter. Merk:
+          Endringen kan ta opptil en time før den trer i kraft.
+        #original_hash: 0627e5c
+        otp_attempt: >-
+          Sjekk den konfigurerte mobilappen din for et engangspassord, eller
+          skriv inn en av gjenopprettingskodene dine.
       website_contact:
-        inquiry: ""
-        competition_id: ""
-        message: ""
-        name: ""
-        your_email: ""
+        #original_hash: da39a3e
+        inquiry: ''
+        #original_hash: da39a3e
+        competition_id: ''
+        #original_hash: da39a3e
+        message: ''
+        #original_hash: da39a3e
+        name: ''
+        #original_hash: da39a3e
+        your_email: ''
       dob_contact:
-        name: ""
-        your_email: ""
-        wca_id: ""
-        dob: "Your correct day of birth in the format YYYY-MM-DD"
-        document: "To prove your identity and your correct date of birth to us, you have to attach a picture of any legal document (identity card, driver license, student card, passport, birth certificate, ...) where your name and date of birth are visible and understandable for an English speaker (or contact your local WCA Delegate if you don't have such a document). On the identification we need at minimum your name and date of birth; feel free to blur-out/obfuscate any other personal data on the identification."
+        #original_hash: da39a3e
+        name: ''
+        #original_hash: da39a3e
+        your_email: ''
+        #original_hash: da39a3e
+        wca_id: ''
+        #original_hash: 8723825
+        dob: Fødelsdatoen din på formatet ÅÅÅÅ-MM-DD
+        #original_hash: 49ee4af
+        document: >-
+          For å bevise din identitet og korrekte fødselsdato, må du legget til
+          et bilde av et hvilket som helst lovlig dokument (ID-kort, førerkort,
+          studentkort, pass, fødselsattest, ...) der ditt navn og fødselsdato er
+          synlig (eller kontakt din lokale WCA-delegat hvis du ikke har et slikt
+          dokument). Identifikasjonen trenger å vise navnet og fødselsdatoen
+          din. Du kan godt skjule annen personlig informasjon på id-dokumentet.
+
       #context: for a post
       post:
         body: "Use the &lt;!-- break --&gt; tag to show a preview on the home page. Any post on the home page will show all text before this divider. The actual post will display the full body."
